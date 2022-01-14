@@ -1,0 +1,48 @@
+:root {
+    --blk-clr: #000;
+    --whit-clr:#fff;
+    --bs-blue:#0d6efd;
+    --gradient-bkg:linear-gradient(to right, #3851f9 0%, #4381fc 100%);
+    --sub-title-bkg: #3d65fb1A;
+    --lite-blue:#3d65fb;
+    --para-clr:#666;
+    --drk-blue:#040837;
+    --liter-blue: #eaf0ff;
+    --brdr-radi:15px;
+    --transition:0.4s;
+    --card-shadow: 0 20px 25px rgba(196, 190, 190, 0.9);
+    --custom-l-h:1.9;
+    --paragraph-font-size:1.3rem;
+}
+/***first column***/
+
+.first-column i {
+    color:var(--lite-blue);
+}
+
+.second-column .first-card,
+.second-column .second-card,
+.second-column .third-card {
+    background-color: var(--liter-blue);
+}
+.second-column .first-card li,
+.second-column .second-card p {
+    border-radius: 10px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+.second-column .first-card li:hover,
+.second-column .second-card p:hover {
+    color:var(--whit-clr);
+    background-color: var(--lite-blue);
+}
+
+.second-column .second-card p {
+    border:1px solid #999;
+}
+
+.third-card img {
+    border-radius: 100%;;
+    max-width: 90px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,100 @@
+/***layout***/
+:root {
+    --blk-clr: #000;
+    --whit-clr:#fff;
+    --bs-blue:#0d6efd;
+    --gradient-bkg:linear-gradient(to right, #3851f9 0%, #4381fc 100%);
+    --sub-title-bkg: #3d65fb1A;
+    --lite-blue:#3d65fb;
+    --para-clr:#666;
+    --drk-blue:#040837;
+    --liter-blue: #eaf0ff;
+    --brdr-radi:15px;
+    --transition:0.4s;
+    --card-shadow: 0 20px 25px rgba(196, 190, 190, 0.9);
+    --custom-l-h:1.9;
+    --paragraph-font-size:1.3rem;
+}
+
+/****main body****/
+
+.main-blog {background-color:var(--liter-blue)}
+
+/****first blog column****/
+
+.first-blog-column {
+    background-color: var(--whit-clr);
+    padding:30px;
+    border-radius: var(--brdr-radi);
+    box-shadow: var(--card-shadow);
+}
+.admin-info {
+    background-color: var(--liter-blue);
+}
+.admin-info i{
+    color:var(--lite-blue)
+}
+.quote-paragraph {
+    background-color: var(--liter-blue);
+    position: relative;
+}
+.quote-paragraph::before {
+    content:'';
+    position:absolute;
+    height:100%;
+    width:5px;
+    background-color: var(--bs-blue);
+    left:0;
+    top:0;
+}
+.quote-paragraph p:first-of-type {
+    color:var(--lite-blue)
+}
+.first-blog-column .row h4,
+.first-blog-column .row i {
+    color:var(--lite-blue)
+}
+.first-blog-column .row img {
+    border-radius: var(--brdr-radi);
+}
+
+/****second blog column****/
+
+.second-blog-column .card {box-shadow: var(--card-shadow)}
+
+.second-blog-column .search-area input {
+    width:80%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: var(--liter-blue);
+}
+
+.second-blog-column .search-area a,
+.second-blog-column .search-area input {border-radius:10px}
+
+.second-blog-column .search-area a {
+    background-color: var(--lite-blue);
+    color:var(--whit-clr);
+    transition: var(--transition);
+}
+
+.second-blog-column .search-area a:hover {background-color:var(--blk-clr)}
+
+.second-blog-column .categories li{transition: var(--transition);cursor: pointer}
+
+.second-blog-column .categories li:hover {transform: translateX(5px);color:var(--lite-blue)}
+
+.second-blog-column .latest-post img {
+    max-height: 80px;
+    max-width:80px;
+    border-radius: 10px;
+}
+
+.second-blog-column a {text-decoration: none}
+
+.second-blog-column .follow-us a,
+.second-blog-column .popular-tags a {
+    background-color: var(--liter-blue);
+    border-radius: 10px;
+}

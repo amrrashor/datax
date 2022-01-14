@@ -1,0 +1,12 @@
+body {background-color:var(--liter-blue)}
+
+.error img {max-width:40%}
+
+.error .btn {
+    background-color:var(--lite-blue);
+    color:var(--whit-clr);
+    padding:10px;
+}
+.error .btn:hover {
+    background-color: var(--blk-clr);;
+}

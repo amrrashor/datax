@@ -1,0 +1,70 @@
+/***first part***/
+
+.first-part .card {
+    padding:30px;
+    margin:10px 0;
+    box-shadow: var(--card-shadow);
+    transition: var(--transition);
+}
+
+.first-part .card .icon-wrapper {
+    background-color: var(--lite-blue);
+    border-radius: 100%;
+    width:100px;
+    height: 100px;;
+    margin:0 auto
+}
+
+.first-part .card .icon-wrapper i {
+    font-size:3rem;
+    color:var(--whit-clr);
+    padding:20px;
+}
+
+.first-part .card:hover {color:var(--whit-clr);background-color: var(--lite-blue)}
+
+.first-part .card:hover .icon-wrapper {background-color: var(--whit-clr)}
+
+.first-part .card:hover .icon-wrapper i {color:var(--bs-blue)}
+
+.first-part .active .icon-wrapper {background-color: var(--whit-clr)}
+
+.first-part .active .icon-wrapper i {color: var(--lite-blue)}
+
+.first-part .active {
+    background-color: var(--lite-blue);
+    color:var(--whit-clr);
+    border:1px solid #fff;
+}
+
+/***secont part***/
+.first-card, 
+.second-card { margin:20px 0}
+.googelmap {
+    width: 100%;
+    height:100%;
+    box-shadow: var(--card-shadow);
+}
+
+.second-part .second-card {
+    padding:10px 20px;
+    box-shadow: var(--card-shadow);
+    border-radius: var(--brdr-radi);
+}
+.second-part .second-card p {color:var(--lite-blue)}
+
+.second-part .second-card input,
+.second-part .second-card textarea {
+    background-color: var(--liter-blue);
+    border:none;
+    border-radius: 10px;
+    outline:none;
+}
+.second-part .second-card .btn {
+    background-color: var(--lite-blue);
+    color:var(--whit-clr);
+    font-size: var(--paragraph-font-size);
+    border-radius: 10px;
+}
+
+.second-part .second-card .btn:hover {background-color: var(--blk-clr)}
